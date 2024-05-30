@@ -1,0 +1,91 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Color{
+    color:#25614d
+  }
+
+  .ColorLista{
+    color: #214237
+  }
+
+  h2{
+    padding-bottom: 2%;
+  }
+
+  header{
+    background-color: rgb(46, 136, 113);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+  }
+
+  header p{
+    padding-left: 2%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   padding: 15px 20px;
+  }
+  
+  header nav{
+    font-size: 15px;
+      padding: 20px;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+  }
+  
+  header nav a:hover{
+    border-top: 5px solid rgb(32, 56, 51);
+      background: rgb(128, 190, 178);
+  }
+  
+  header a{
+    color: rgb(59, 82, 73);
+    padding: 10px 10px;
+  }
+  
+  header a:hover{
+    color: rgb(56, 41, 51);
+  }
+
+
+  #QueEs .container{
+    text-align: center;
+    padding: 70px 50px;
+    padding-top: 200px;
+  }
+
+  #Importancia .container{
+    text-align: center;
+    padding: 70px 50px;
+  }
+
+  #Principios .container{
+    text-align: center;
+    padding: 70px 50px;
+  }
+
+  #Listado .container{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background-color: rgb(222, 255, 243);
+  }
+
+  img{
+    padding: 30px 30px;
+  }
+
+  footer{
+    padding: 50px 50px;
+  }
